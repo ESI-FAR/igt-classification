@@ -1,0 +1,560 @@
+[
+  {
+    "sentence": "If a storm event occurs, the Chief Disaster Coordinator must provide state of emergency advice within 24 hours, or else Agency may revoke Coordinator privileges.",
+    "tokens": [
+        "If", "a", "storm", "event", "occurs", ",",
+        "the", "Chief", "Disaster", "Coordinator",
+        "must",
+        "provide",
+        "state", "of", "emergency", "advice",
+        "within", "24", "hours", ",",
+        "or", "else", "Agency", "may", "revoke", "Coordinator", "privileges", "."
+    ],
+    "labels": [
+        "B-Activation_Condition", "I-Activation_Condition", "I-Activation_Condition", "I-Activation_Condition", "I-Activation_Condition", "O",
+        "B-Attribute", "I-Attribute", "I-Attribute", "I-Attribute",
+        "B-Deontic",
+        "B-Aim",
+        "B-Object", "I-Object", "I-Object", "I-Object",
+        "B-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "O",
+        "B-Or_Else", "I-Or_Else", "I-Or_Else", "I-Or_Else", "I-Or_Else", "I-Or_Else", "I-Or_Else", "O"
+    ]
+  },
+  {
+    "sentence": "Member States, regulatory authorities designated pursuant to Article 76 of Directive (EU) 2024/1788 (the ‘regulatory authorities’), operators of natural gas systems or hydrogen systems and delegated operators such as market area managers or booking platform operators shall ensure that markets for natural gas and hydrogen are operated in accordance with the general principles.",
+    "tokens": [
+        "Member", "States", ",",
+        "regulatory", "authorities",
+        "designated", "pursuant", "to", "Article", "76", "of", "Directive", "(EU)", "2024/1788",
+        "(", "the", "‘", "regulatory", "authorities", "’", ")", ",",
+        "operators", "of", "natural", "gas", "systems",
+        "or", "hydrogen", "systems",
+        "and", "delegated", "operators",
+        "such", "as", "market", "area", "managers",
+        "or", "booking", "platform", "operators",
+        "shall",
+        "ensure",
+        "that", "markets", "for", "natural", "gas", "and", "hydrogen",
+        "are", "operated", "in", "accordance", "with", "the", "general", "principles", "."
+    ],
+    "labels": [
+        "B-Attribute", "I-Attribute", "O",
+        "B-Attribute", "I-Attribute",
+        "O", "O", "O", "O", "O", "O", "O", "O", "O",
+        "O", "O", "O", "B-Attribute", "I-Attribute", "O", "O", "O",
+        "B-Attribute", "I-Attribute", "I-Attribute", "I-Attribute", "I-Attribute",
+        "O", "O", "O",
+        "O", "B-Attribute", "I-Attribute",
+        "O", "O", "B-Attribute", "I-Attribute", "I-Attribute",
+        "O", "B-Attribute", "I-Attribute", "I-Attribute",
+        "B-Deontic",
+        "B-Aim",
+        "O", "B-Object", "I-Object", "I-Object", "I-Object", "I-Object", "I-Object",
+        "O", "B-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "O"
+    ]
+  },
+  {
+    "sentence": "transmission system operators and distribution system operators, and hydrogen transmission network operators and hydrogen distribution network operators shall cooperate with each other to provide network users with the freedom to book entry and exit capacity independently; natural gas and, from 2033, hydrogen shall be transported by means of the entry-exit system, rather than contractual paths;",
+    "tokens": [
+        "transmission", "system", "operators",
+        "and",
+        "distribution", "system", "operators", ",",
+        "and",
+        "hydrogen", "transmission", "network", "operators",
+        "and",
+        "hydrogen", "distribution", "network", "operators",
+        "shall",
+        "cooperate",
+        "with", "each", "other", "to",
+        "provide",
+        "network", "users",
+        "with", "the", "freedom", "to", "book", "entry", "and", "exit", "capacity", "independently", ";",
+        "natural", "gas",
+        "and", ",",
+        "from", "2033", ",",
+        "hydrogen",
+        "shall",
+        "be", "transported",
+        "by", "means", "of", "the", "entry-exit", "system", ",",
+        "rather", "than", "contractual", "paths", ";"
+    ],
+    "labels": [
+        "B-Attribute", "I-Attribute", "I-Attribute",
+        "O",
+        "B-Attribute", "I-Attribute", "I-Attribute", "O",
+        "O",
+        "B-Attribute", "I-Attribute", "I-Attribute", "I-Attribute",
+        "O",
+        "B-Attribute", "I-Attribute", "I-Attribute", "I-Attribute",
+        "B-Deontic",
+        "B-Aim",
+        "B-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint",
+        "B-Aim",
+        "B-Object", "I-Object",
+        "O", "O", "B-Object", "I-Object", "I-Object", "I-Object", "I-Object", "I-Object", "I-Object", "I-Object", "O",
+        "B-Object", "I-Object",
+        "O", "O",
+        "B-Activation_Condition", "I-Activation_Condition", "O",
+        "B-Object",
+        "B-Deontic",
+        "B-Aim", "I-Aim",
+        "B-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint",
+        "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "O"
+    ]
+  },
+  {
+    "sentence": "The regulatory authority shall consider in its assessment, inter alia, the value of projected financial transfers, the resulting cross-subsidisation between users of the respective networks and the cost-efficiency of those financial transfers.",
+    "tokens": [
+        "The", "regulatory", "authority",
+        "shall",
+        "consider",
+        "in", "its", "assessment", ",",
+        "inter", "alia", ",",
+        "the", "value", "of", "projected", "financial", "transfers", ",",
+        "the", "resulting", "cross-subsidisation", "between", "users", "of", "the", "respective", "networks",
+        "and", "the", "cost-efficiency", "of", "those", "financial", "transfers", "."
+    ],
+    "labels": [
+        "B-Attribute", "I-Attribute", "I-Attribute",
+        "B-Deontic",
+        "B-Aim",
+        "O", "O", "O", "O",
+        "O", "O", "O",
+        "O", "B-Object", "I-Object", "I-Object", "I-Object", "I-Object", "O",
+        "O", "B-Object", "I-Object", "I-Object", "B-Object", "I-Object", "I-Object", "I-Object", "I-Object",
+        "O", "O", "B-Object", "I-Object", "I-Object", "I-Object", "I-Object", "O"
+    ]
+  },
+  {
+    "sentence": "The needed revenue for the allowed financial transfer must be collected as a dedicated charge",
+    "tokens": [
+        "The", "needed", "revenue", "for", "the", "allowed", "financial", "transfer",
+        "must",
+        "be", "collected",
+        "as", "a", "dedicated", "charge"
+    ],
+    "labels": [
+        "O", "B-Object", "I-Object", "I-Object", "I-Object", "I-Object", "I-Object", "I-Object",
+        "B-Deontic",
+        "B-Aim", "I-Aim",
+        "O", "O", "B-Object", "I-Object"
+    ]
+  },
+  {
+    "sentence": "ACER may issue recommendations to transmission system operators, distribution system operators, hydrogen network operators and regulatory authorities on the methodologies for: (a) the determination of the value of the assets that are transferred to another regulatory asset base and the destination of any profits and losses that may occur as a result;",
+    "tokens": [
+        "ACER",
+        "may",
+        "issue",
+        "recommendations",
+        "to",
+        "transmission", "system", "operators", ",",
+        "distribution", "system", "operators", ",",
+        "hydrogen", "network", "operators",
+        "and",
+        "regulatory", "authorities",
+        "on", "the", "methodologies", "for", ":",
+        "(", "a", ")",
+        "the", "determination",
+        "of", "the", "value",
+        "of", "the", "assets",
+        "that", "are", "transferred",
+        "to", "another", "regulatory", "asset", "base",
+        "and", "the", "destination",
+        "of", "any", "profits", "and", "losses",
+        "that", "may", "occur", "as", "a", "result", ";"
+    ],
+    "labels": [
+        "B-Attribute",
+        "B-Deontic",
+        "B-Aim",
+        "B-Object",
+        "O",
+        "B-Object", "I-Object", "I-Object", "O",
+        "B-Object", "I-Object", "I-Object", "O",
+        "B-Object", "I-Object", "I-Object",
+        "O",
+        "B-Object", "I-Object",
+        "B-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "O",
+        "O", "O", "O",
+        "O", "I-Execution_Constraint",
+        "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint",
+        "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint",
+        "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint",
+        "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint",
+        "O", "O", "I-Execution_Constraint",
+        "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint",
+        "O", "O", "O", "O", "O", "O", "O"
+    ]
+  },
+  {
+    "sentence": "The network operator shall publish the annual transmission capacity report by March 31st of each year.",
+    "tokens": [
+        "The", "network", "operator",
+        "shall",
+        "publish",
+        "the", "annual", "transmission", "capacity", "report",
+        "by", "March", "31st",
+        "of", "each", "year", "."
+    ],
+    "labels": [
+        "B-Attribute", "I-Attribute", "I-Attribute",
+        "B-Deontic",
+        "B-Aim",
+        "O", "B-Object", "I-Object", "I-Object", "I-Object",
+        "B-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint",
+        "O", "I-Execution_Constraint", "I-Execution_Constraint", "O"
+    ]
+  },
+  {
+    "sentence": "All energy suppliers must comply with the established pricing framework to ensure consumer protection.",
+    "tokens": [
+        "All", "energy", "suppliers",
+        "must",
+        "comply",
+        "with", "the", "established", "pricing", "framework",
+        "to",
+        "ensure",
+        "consumer", "protection", "."
+    ],
+    "labels": [
+        "B-Attribute", "I-Attribute", "I-Attribute",
+        "B-Deontic",
+        "B-Aim",
+        "O", "O", "B-Object", "I-Object", "I-Object",
+        "O",
+        "B-Aim",
+        "B-Object", "I-Object", "O"
+    ]
+  },
+  {
+    "sentence": "Regulatory authorities may impose penalties on entities that fail to comply with emission limits.",
+    "tokens": [
+        "Regulatory", "authorities",
+        "may",
+        "impose",
+        "penalties",
+        "on", "entities",
+        "that",
+        "fail",
+        "to", "comply",
+        "with", "emission", "limits", "."
+    ],
+    "labels": [
+        "B-Attribute", "I-Attribute",
+        "B-Deontic",
+        "B-Aim",
+        "B-Object",
+        "O", "B-Object",
+        "O",
+        "B-Execution_Constraint",
+        "I-Execution_Constraint", "I-Execution_Constraint",
+        "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "O"
+    ]
+  },
+  {
+    "sentence": "Market participants shall submit quarterly energy reports to the regulatory authority.",
+    "tokens": [
+        "Market", "participants",
+        "shall",
+        "submit",
+        "quarterly", "energy", "reports",
+        "to", "the", "regulatory", "authority", "."
+    ],
+    "labels": [
+        "B-Attribute", "I-Attribute",
+        "B-Deontic",
+        "B-Aim",
+        "B-Object", "I-Object", "I-Object",
+        "O", "O", "B-Execution_Constraint", "I-Execution_Constraint", "O"
+    ]
+  },
+  {
+    "sentence": "Failure to adhere to reporting deadlines may result in administrative sanctions.",
+    "tokens": [
+        "Failure",
+        "to", "adhere",
+        "to", "reporting", "deadlines",
+        "may",
+        "result",
+        "in", "administrative", "sanctions", "."
+    ],
+    "labels": [
+        "B-Activation_Condition",
+        "I-Activation_Condition", "I-Activation_Condition",
+        "I-Activation_Condition", "I-Activation_Condition", "I-Activation_Condition",
+        "B-Deontic",
+        "B-Aim",
+        "O", "B-Or_Else", "I-Or_Else", "O"
+    ]
+  },
+  {
+    "sentence": "Gas suppliers must submit their annual consumption forecasts to the regulatory body by October 15th.",
+    "tokens": [
+        "Gas", "suppliers",
+        "must",
+        "submit",
+        "their", "annual", "consumption", "forecasts",
+        "to", "the", "regulatory", "body",
+        "by", "October", "15th", "."
+    ],
+    "labels": [
+        "B-Attribute", "I-Attribute",
+        "B-Deontic",
+        "B-Aim",
+        "O", "B-Object", "I-Object", "I-Object",
+        "O", "O", "B-Object", "I-Object",
+        "B-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "O"
+    ]
+  },
+  {
+    "sentence": "In case of non-compliance, the authority may revoke the supplier’s operating license.",
+    "tokens": [
+        "In", "case", "of", "non-compliance", ",",
+        "the", "authority",
+        "may",
+        "revoke",
+        "the", "supplier’s", "operating", "license", "."
+    ],
+    "labels": [
+        "B-Activation_Condition", "I-Activation_Condition", "I-Activation_Condition", "I-Activation_Condition", "O",
+        "B-Attribute", "I-Attribute",
+        "B-Deontic",
+        "B-Aim",
+        "O", "B-Object", "I-Object", "I-Object", "O"
+    ]
+  },
+  {
+    "sentence": "Energy traders shall report transactions exceeding 50,000 kWh to the regulatory authority.",
+    "tokens": [
+        "Energy", "traders",
+        "shall",
+        "report",
+        "transactions",
+        "exceeding", "50,000", "kWh",
+        "to", "the", "regulatory", "authority", "."
+    ],
+    "labels": [
+        "B-Attribute", "I-Attribute",
+        "B-Deontic",
+        "B-Aim",
+        "B-Object",
+        "B-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint",
+        "O", "O", "B-Object", "I-Object", "O"
+    ]
+  },
+  {
+    "sentence": "The system operator must ensure that grid stability measures are in place at all times.",
+    "tokens": [
+        "The", "system", "operator",
+        "must",
+        "ensure",
+        "that", "grid", "stability", "measures",
+        "are", "in", "place",
+        "at", "all", "times", "."
+    ],
+    "labels": [
+        "B-Attribute", "I-Attribute", "I-Attribute",
+        "B-Deontic",
+        "B-Aim",
+        "O", "B-Object", "I-Object", "I-Object",
+        "O", "O", "O",
+        "B-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "O"
+    ]
+  },
+  {
+    "sentence": "Companies failing to meet emission targets will be subject to financial penalties.",
+    "tokens": [
+        "Companies",
+        "failing",
+        "to", "meet",
+        "emission", "targets",
+        "will",
+        "be", "subject", "to",
+        "financial", "penalties", "."
+    ],
+    "labels": [
+        "B-Attribute",
+        "B-Activation_Condition",
+        "I-Activation_Condition", "I-Activation_Condition",
+        "I-Execution_Constraint", "I-Execution_Constraint",
+        "B-Deontic",
+        "B-Aim", "I-Aim", "I-Aim",
+        "B-Or_Else", "I-Or_Else", "O"
+    ]
+  },
+  {
+    "sentence": "Transmission operators must maintain records of all grid maintenance activities for a minimum of five years.",
+    "tokens": [
+        "Transmission", "operators",
+        "must",
+        "maintain",
+        "records",
+        "of", "all", "grid", "maintenance", "activities",
+        "for", "a", "minimum", "of", "five", "years", "."
+    ],
+    "labels": [
+        "B-Attribute", "I-Attribute",
+        "B-Deontic",
+        "B-Aim",
+        "B-Object",
+        "O", "B-Object", "I-Object", "I-Object", "I-Object",
+        "B-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "O"
+    ]
+  },
+  {
+    "sentence": "Any violations of market rules may lead to suspension of trading privileges.",
+    "tokens": [
+        "Any", "violations",
+        "of", "market", "rules",
+        "may",
+        "lead",
+        "to", "suspension",
+        "of", "trading", "privileges", "."
+    ],
+    "labels": [
+        "B-Activation_Condition", "I-Activation_Condition",
+        "I-Activation_Condition", "I-Activation_Condition", "I-Activation_Condition",
+        "B-Deontic",
+        "B-Aim",
+        "O", "B-Object",
+        "I-Object", "I-Object", "I-Object", "O"
+    ]
+  },
+  {
+    "sentence": "Retail suppliers shall disclose energy source composition to consumers in their billing statements.",
+    "tokens": [
+        "Retail", "suppliers",
+        "shall",
+        "disclose",
+        "energy", "source", "composition",
+        "to", "consumers",
+        "in", "their", "billing", "statements", "."
+    ],
+    "labels": [
+        "B-Attribute", "I-Attribute",
+        "B-Deontic",
+        "B-Aim",
+        "B-Object", "I-Object", "I-Object",
+        "O", "B-Object",
+        "B-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "O"
+    ]
+  },
+  {
+    "sentence": "Power generators failing to meet capacity obligations will be fined based on the severity of the shortfall.",
+    "tokens": [
+        "Power", "generators",
+        "failing",
+        "to", "meet",
+        "capacity", "obligations",
+        "will",
+        "be", "fined",
+        "based", "on", "the", "severity",
+        "of", "the", "shortfall", "."
+    ],
+    "labels": [
+        "B-Attribute", "I-Attribute",
+        "B-Activation_Condition",
+        "I-Activation_Condition", "I-Activation_Condition",
+        "I-Activation_Condition", "I-Activation_Condition",
+        "B-Deontic",
+        "B-Aim", "I-Aim",
+        "O", "O", "O", "B-Execution_Constraint",
+        "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "O"
+    ]
+  },
+  {
+    "sentence": "All energy contracts must include terms specifying the rights and obligations of the parties.",
+    "tokens": [
+        "All", "energy", "contracts",
+        "must",
+        "include",
+        "terms",
+        "specifying",
+        "the", "rights", "and", "obligations",
+        "of", "the", "parties", "."
+    ],
+    "labels": [
+        "B-Attribute", "I-Attribute", "I-Attribute",
+        "B-Deontic",
+        "B-Aim",
+        "B-Object",
+        "O",
+        "O", "B-Object", "I-Object", "I-Object",
+        "I-Object", "I-Object", "B-Object", "O"
+    ]
+  },
+  {
+    "sentence": "By way of derogation from paragraph 2, a Member State may allow financial transfers between regulated services that are separate within the meaning of paragraph 1, provided that the regulatory authority has established that the financing of networks through network access tariffs paid by its network users only is not viable.",
+    "tokens": [
+      "By", "way", "of", "derogation", "from", "paragraph", "2", ",",
+      "a", "Member", "State",
+      "may",
+      "allow",
+      "financial", "transfers", "between", "regulated", "services",
+      "that", "are", "separate", "within", "the", "meaning", "of", "paragraph", "1", ",",
+      "provided", "that", "the",
+      "regulatory", "authority", "has", "established", "that", "the", "financing", "of", "networks", "through", "network", "access", "tariffs", "paid", "by", "its", "network", "users", "only", "is", "not", "viable", "."
+    ],
+    "labels": [
+      "B-Activation_Condition", "I-Activation_Condition", "I-Activation_Condition", "I-Activation_Condition", "I-Activation_Condition", "I-Activation_Condition", "I-Activation_Condition", "O",
+      "B-Attribute", "I-Attribute", "I-Attribute",
+      "B-Deontic",
+      "B-Aim",
+      "B-Object", "I-Object", "I-Object", "I-Object", "I-Object",
+      "O", "O", "O", "O", "O", "O", "O", "O", "O", "O",
+      "O", "O", "O",
+      "B-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "O"
+    ]
+  },
+  {
+    "sentence": "The regulatory authority may approve a financial transfer and dedicated charge referred to in paragraph 4, provided that: network access tariffs are charged to users of the regulatory asset base that benefits from a financial transfer;",
+    "tokens": [
+      "The", "regulatory", "authority",
+      "may", 
+      "approve", 
+      "a", "financial", "transfer", "and", "dedicated", "charge",
+      "referred", "to", "in", "paragraph", "4", ",",
+      "provided", "that", ":",
+      "network", "access", "tariffs", "are", "charged", "to", "users", "of", "the", "regulatory", "asset", "base", "that", "benefits", "from", "a", "financial", "transfer", ";"
+    ],
+    "labels": [
+      "B-Attribute", "I-Attribute", "I-Attribute",
+      "B-Deontic",
+      "B-Aim", 
+      "O", "B-Object", "I-Object", "O", "B-Object", "I-Object",
+      "O", "O", "O", "O", "O", "O",
+      "O", "O", "O",
+      "B-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "O"
+    ]
+  },
+  {
+    "sentence": "By 5 August 2025, ACER shall issue recommendations to transmission system operators, distribution system operators, hydrogen network operators and regulatory authorities on the methodologies for setting the inter-temporal cost allocation.",
+    "tokens": [
+      "By", "5", "August", "2025", ",",
+      "ACER", 
+      "shall",
+      "issue",
+      "recommendations",
+      "to", "transmission", "system", "operators", ",",
+      "distribution", "system", "operators", ",",
+      "hydrogen", "network", "operators",
+      "and", "regulatory", "authorities",
+      "on", "the",
+      "methodologies", "for", "setting", "the", "inter-temporal", "cost", "allocation", "."
+    ],
+    "labels": [
+      "B-Activation_Condition", "I-Activation_Condition", "I-Activation_Condition", "O",
+      "B-Attribute",
+      "B-Deontic",
+      "B-Aim",
+      "B-Object",
+      "O", "B-Object", "I-Object", "I-Object", "O",
+      "B-Object", "I-Object", "I-Object", "O",
+      "B-Object", "I-Object", "I-Object",
+      "O", "B-Object", "I-Object",
+      "O", "O",
+      "B-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "I-Execution_Constraint", "O"
+    ]
+  }
+]
