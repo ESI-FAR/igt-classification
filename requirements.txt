@@ -1,0 +1,10 @@
+tensorflow
+torch
+transformers
+datasets
+scikit-learn
+xgboost
+accelerate
+tensorboard
+jupyterlab
+tf-keras
